@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot2_elasticjob
+
+
+regCenter:
+  serverList: localhost:2181
+  namespace: elasticjob

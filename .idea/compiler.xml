@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rocket-mq" />
+        <module name="mybatis" />
+        <module name="h2" />
+        <module name="spring-mvc" />
+        <module name="spring-xml" />
+        <module name="elastic-job" />
+        <module name="jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="db" target="1.8" />
+      <module name="elastic-job" target="1.8" />
+      <module name="h2" target="1.8" />
+      <module name="javaee" target="1.8" />
+      <module name="job" target="1.8" />
+      <module name="jpa" target="1.8" />
+      <module name="mq" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="rocket-mq" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-mvc" target="1.8" />
+      <module name="spring-xml" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
