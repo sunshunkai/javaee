@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/zk/curator/curator.iml" filepath="$PROJECT_DIR$/zk/curator/curator.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
       <module fileurl="file://$PROJECT_DIR$/job/elastic-job/elastic-job.iml" filepath="$PROJECT_DIR$/job/elastic-job/elastic-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/h2/h2.iml" filepath="$PROJECT_DIR$/db/h2/h2.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring/spring-mvc/spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-xml/spring-xml.iml" filepath="$PROJECT_DIR$/spring/spring-xml/spring-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zk/zk.iml" filepath="$PROJECT_DIR$/zk/zk.iml" />
     </modules>
   </component>
 </project>

@@ -11,11 +11,13 @@
         <module name="h2" />
         <module name="spring-mvc" />
         <module name="spring-xml" />
+        <module name="curator" />
         <module name="elastic-job" />
         <module name="jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="curator" target="1.8" />
       <module name="db" target="1.8" />
       <module name="elastic-job" target="1.8" />
       <module name="h2" target="1.8" />
@@ -28,6 +30,7 @@
       <module name="spring" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="spring-xml" target="1.8" />
+      <module name="zk" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
