@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4a4d1b9-b9e5-40ff-b36b-14df30644447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/CronScheduled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/DemoTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/ScheduleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/ScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-mvc/src/test/java/com/ssk/juc/ThreadLocalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/curator/curator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zk/curator/curator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/zk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zk/zk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,7 @@
       <recent name="$PROJECT_DIR$/db/h2/src/main/resources/db" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (2)">
+  <component name="RunManager" selected="Application.ThreadLocalMain">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ssk.Application" />
       <module name="curator" />
@@ -102,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssk.juc.ThreadLocalMain" />
+      <module name="spring-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssk.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="remote" type="Remote">
       <module name="spring-mvc" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -115,19 +122,6 @@
         <option name="LOCAL" value="false" />
       </RunnerSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="h2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-mvc" />
@@ -158,18 +152,18 @@
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.Application (1)" />
+      <item itemvalue="Application.ThreadLocalMain" />
       <item itemvalue="Remote.remote" />
-      <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalMain" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Spring Boot.Application (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +186,10 @@
       <workItem from="1598424639014" duration="5579000" />
       <workItem from="1598492251377" duration="9818000" />
       <workItem from="1599486606640" duration="2524000" />
-      <workItem from="1599744450137" duration="2799000" />
+      <workItem from="1599744450137" duration="3244000" />
+      <workItem from="1599749029582" duration="25000" />
+      <workItem from="1599811224886" duration="1695000" />
+      <workItem from="1599827868094" duration="1813000" />
     </task>
     <servers />
   </component>
@@ -228,62 +225,70 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="406" y="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.830@0.23.1440.830" timestamp="1599489062614" />
-    <state width="1389" height="267" key="GridCell.Tab.0.bottom" timestamp="1599747876571">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1389" height="319" key="GridCell.Tab.0.bottom" timestamp="1599813571907">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599747876571" />
+    <state width="1389" height="319" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1599813571907" />
+    <state width="1389" height="270" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599748859866" />
     <state width="1389" height="270" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1598254730985" />
-    <state width="1389" height="267" key="GridCell.Tab.0.center" timestamp="1599747876570">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1389" height="319" key="GridCell.Tab.0.center" timestamp="1599813571906">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1599747876570" />
+    <state width="1389" height="319" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1599813571906" />
+    <state width="1389" height="270" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1599748859866" />
     <state width="1389" height="270" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1598254730985" />
-    <state width="1389" height="267" key="GridCell.Tab.0.left" timestamp="1599747876570">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1389" height="319" key="GridCell.Tab.0.left" timestamp="1599813571905">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1599747876570" />
+    <state width="1389" height="319" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1599813571905" />
+    <state width="1389" height="270" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1599748859865" />
     <state width="1389" height="270" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1598254730985" />
-    <state width="1389" height="267" key="GridCell.Tab.0.right" timestamp="1599747876571">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1389" height="319" key="GridCell.Tab.0.right" timestamp="1599813571907">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1599747876571" />
+    <state width="1389" height="319" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1599813571907" />
+    <state width="1389" height="270" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1599748859866" />
     <state width="1389" height="270" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1598254730985" />
-    <state width="1389" height="267" key="GridCell.Tab.1.bottom" timestamp="1599747876573">
+    <state width="1389" height="270" key="GridCell.Tab.1.bottom" timestamp="1599748859867">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599747876573" />
+    <state width="1389" height="270" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599748859867" />
     <state width="1389" height="270" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1598254730986" />
-    <state width="1389" height="267" key="GridCell.Tab.1.center" timestamp="1599747876572">
+    <state width="1389" height="270" key="GridCell.Tab.1.center" timestamp="1599748859867">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1599747876572" />
+    <state width="1389" height="270" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1599748859867" />
     <state width="1389" height="270" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1598254730986" />
-    <state width="1389" height="267" key="GridCell.Tab.1.left" timestamp="1599747876572">
+    <state width="1389" height="270" key="GridCell.Tab.1.left" timestamp="1599748859867">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1599747876572" />
+    <state width="1389" height="270" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1599748859867" />
     <state width="1389" height="270" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1598254730986" />
-    <state width="1389" height="267" key="GridCell.Tab.1.right" timestamp="1599747876572">
+    <state width="1389" height="270" key="GridCell.Tab.1.right" timestamp="1599748859867">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="267" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1599747876572" />
+    <state width="1389" height="270" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1599748859867" />
     <state width="1389" height="270" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1598254730986" />
-    <state width="1389" height="270" key="GridCell.Tab.2.bottom" timestamp="1599745008347">
+    <state width="1389" height="270" key="GridCell.Tab.2.bottom" timestamp="1599748859868">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="270" key="GridCell.Tab.2.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599745008347" />
-    <state width="1389" height="270" key="GridCell.Tab.2.center" timestamp="1599745008346">
+    <state width="1389" height="270" key="GridCell.Tab.2.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599748859868" />
+    <state width="1389" height="270" key="GridCell.Tab.2.center" timestamp="1599748859868">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="270" key="GridCell.Tab.2.center/0.23.1440.830@0.23.1440.830" timestamp="1599745008346" />
-    <state width="1389" height="270" key="GridCell.Tab.2.left" timestamp="1599745008346">
+    <state width="1389" height="270" key="GridCell.Tab.2.center/0.23.1440.830@0.23.1440.830" timestamp="1599748859868" />
+    <state width="1389" height="270" key="GridCell.Tab.2.left" timestamp="1599748859868">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="270" key="GridCell.Tab.2.left/0.23.1440.830@0.23.1440.830" timestamp="1599745008346" />
-    <state width="1389" height="270" key="GridCell.Tab.2.right" timestamp="1599745008346">
+    <state width="1389" height="270" key="GridCell.Tab.2.left/0.23.1440.830@0.23.1440.830" timestamp="1599748859868" />
+    <state width="1389" height="270" key="GridCell.Tab.2.right" timestamp="1599748859868">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1389" height="270" key="GridCell.Tab.2.right/0.23.1440.830@0.23.1440.830" timestamp="1599745008346" />
+    <state width="1389" height="270" key="GridCell.Tab.2.right/0.23.1440.830@0.23.1440.830" timestamp="1599748859868" />
+    <state x="449" y="147" key="RollbackChangesDialog" timestamp="1599748078716">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="449" y="147" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1599748078716" />
     <state x="289" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1598231889620">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -292,18 +297,19 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="425" y="193" width="598" height="490" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1599747068634" />
-    <state x="546" y="339" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599490377463">
+    <state x="546" y="339" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599747949340">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="546" y="339" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.830@0.23.1440.830" timestamp="1599490377463" />
+    <state x="546" y="339" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.830@0.23.1440.830" timestamp="1599747949340" />
     <state x="126" y="98" key="new project wizard" timestamp="1599488919043">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="126" y="98" key="new project wizard/0.23.1440.830@0.23.1440.830" timestamp="1599488919043" />
-    <state x="389" y="177" width="670" height="676" key="search.everywhere.popup" timestamp="1599747071938">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="389" y="177" width="670" height="675" key="search.everywhere.popup" timestamp="1599811921269">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="389" y="177" width="670" height="676" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1599747071938" />
+    <state x="389" y="177" width="670" height="675" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1599811921269" />
+    <state x="389" y="177" width="670" height="676" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1599747947554" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
