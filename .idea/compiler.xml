@@ -13,7 +13,31 @@
         <module name="rocket-mq" />
         <module name="spring-mvc" />
         <module name="spring-xml" />
+<<<<<<< HEAD
       </profile>
     </annotationProcessing>
+=======
+        <module name="curator" />
+        <module name="elastic-job" />
+        <module name="jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="curator" target="1.8" />
+      <module name="db" target="1.8" />
+      <module name="elastic-job" target="1.8" />
+      <module name="h2" target="1.8" />
+      <module name="javaee" target="1.8" />
+      <module name="job" target="1.8" />
+      <module name="jpa" target="1.8" />
+      <module name="mq" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="rocket-mq" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-mvc" target="1.8" />
+      <module name="spring-xml" target="1.8" />
+      <module name="zk" target="1.8" />
+    </bytecodeTargetLevel>
+>>>>>>> 240e0e2d82dcc741db206263cd8f2e2a27f7fe7e
   </component>
 </project>

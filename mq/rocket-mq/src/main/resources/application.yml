@@ -1,0 +1,6 @@
+
+
+rocketmq:
+  producer:
+    group: springboot-rocketmq-group
+  name-server: 127.0.0.1:9876
