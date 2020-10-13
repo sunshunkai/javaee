@@ -11,4 +11,6 @@ public interface UserDao {
 
     UserDO findById(Long id);
 
+    int update(UserDO userDO);
+
 }

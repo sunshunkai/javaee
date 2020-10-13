@@ -6,4 +6,14 @@
         SELECT * FROM `user` WHERE id = #{id}
     </select>
 
+
+    <update id="update" parameterType="com.ssk.mode.UserDO">
+        UPDATE `user` SET user_name = #{userName} ,version = version +1
+        WHERE id = #{id} AND version = #{version}
+    </update>
+
+
+
+
+
 </mapper>

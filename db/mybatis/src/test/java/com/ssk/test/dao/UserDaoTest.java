@@ -21,6 +21,33 @@ public class UserDaoTest {
     
     @Test
     public void test(){
-        userDao.findById(1L)
+        UserDO user = userDao.findById(1L);
+
+        test1();
+
+
+        user.setUserName("111111");
+        int update = userDao.update(user);
+        System.out.println(update);
+        System.out.println(user);
+
+//        user.setUserName("22222222");
+//
+//
+//        int update1 = userDao.update(user);
+//        System.out.println(update1);
+//        System.out.println(user);
     }
+
+
+    public void test1(){
+        UserDO user = userDao.findById(1L);
+        user.setUserName("111111");
+        int update = userDao.update(user);
+        System.out.println(update);
+        System.out.println(user);
+
+    }
+
+
 }
