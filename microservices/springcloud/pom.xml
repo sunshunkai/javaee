@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springcloud</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springcloud-config</module>
+        <module>springcloud-eureka</module>
+        <module>springcloud-read-config</module>
+    </modules>
 
 
 </project>

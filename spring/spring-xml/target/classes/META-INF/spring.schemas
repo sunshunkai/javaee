@@ -1,1 +1,2 @@
-http\://www.w3school.com.cn/schema/user/user.xsd=META-INF/user.xsd
+#http\://www.w3school.com.cn/schema/user/user.xsd=META-INF/user.xsd
+http\://www.w3school.com.cn/schema/user/user.xsd=com.ssk.mylabel.config/user.xsd

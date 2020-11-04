@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduleJob {
 
-    @CronScheduled(cron = "0/1 * * * * ?",desc = "定时任务")
+//    @CronScheduled(cron = "0/1 * * * * ?",desc = "定时任务")
     public void com(){
         System.out.println("当前时间:" + System.currentTimeMillis());
     }

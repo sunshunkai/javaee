@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct;
 @ComponentScan
 public class A {
 
-    @Value("${spring.redis.host}")
+    @Value("${spring.redis.host:1}")
     private int db;
 
     public A(){
