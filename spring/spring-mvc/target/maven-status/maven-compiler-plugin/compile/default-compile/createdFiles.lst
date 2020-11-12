@@ -3,6 +3,7 @@ com/ssk/loop/B.class
 com/ssk/cron/ScheduleJob.class
 com/ssk/loop/C.class
 com/ssk/web/HelloController.class
+com/ssk/event/MyApplicationContextInitializer.class
 com/ssk/cron/ScheduleTask.class
 com/ssk/cron/CronScheduled.class
 com/ssk/proxy/cglb/SampleClass.class
