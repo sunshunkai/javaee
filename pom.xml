@@ -15,6 +15,7 @@
         <module>mq</module>
         <module>zk</module>
         <module>microservices</module>
+        <module>java</module>
     </modules>
 
 
