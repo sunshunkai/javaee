@@ -22,19 +22,9 @@ public class EscapeAnalysisDemo {
     }
 
     private static void apply(){
-        new A();
+        new Object();
     }
 
 
-
-
-    public static class A{
-        private Long a;
-        private Long b;
-        private Long c;
-        private Long d;
-        private Long e;
-        private Long f;
-    }
 
 }
