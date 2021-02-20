@@ -1,0 +1,13 @@
+package com.ssk.pattern.decorator;
+
+/**
+ * @author ssk
+ * @date 2021/1/17
+ * 定义了读取和写入操作的通用数据接口
+ */
+public interface DataSource {
+
+    void writeData(String data);
+
+    String readData();
+}

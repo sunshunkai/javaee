@@ -22,7 +22,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class Application implements ApplicationContextAware {
 
     public static void main(String []args){
-        SpringApplication.run(Application.class);
+//        SpringApplication.run(Application.class);
 //        System.out.println(a() || b());
 
 //        UserBean ssk = UserBean.builder().userName("ssk").age(1).id(1L).build();

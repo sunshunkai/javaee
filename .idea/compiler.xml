@@ -2,22 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rocket-mq" />
-        <module name="springcloud-config" />
         <module name="mybatis" />
-        <module name="h2" />
-        <module name="spring-mvc" />
+        <module name="shardingsphere" />
         <module name="spring-xml" />
-        <module name="curator" />
+        <module name="freemark" />
+        <module name="springcloud-config" />
+        <module name="h2" />
+        <module name="rocket-mq" />
         <module name="elastic-job" />
-        <module name="springcloud-read-config" />
-        <module name="untitled" />
-        <module name="java" />
+        <module name="spring-mvc" />
         <module name="jpa" />
+        <module name="curator" />
+        <module name="springcloud-read-config" />
+        <module name="java" />
+        <module name="elasticsearch" />
+        <module name="untitled" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
