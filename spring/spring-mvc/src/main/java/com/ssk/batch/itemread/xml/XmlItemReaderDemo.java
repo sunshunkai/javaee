@@ -1,4 +1,4 @@
-package com.ssk.batch.itmeread.xml;
+package com.ssk.batch.itemread.xml;
 
 import com.ssk.batch.Customer;
 import org.springframework.batch.core.Job;
@@ -21,7 +21,7 @@ import java.util.Map;
  * @author ssk
  * @date 2021/2/28
  */
-@Configuration
+//@Configuration
 public class XmlItemReaderDemo {
 
     @Autowired
@@ -34,7 +34,7 @@ public class XmlItemReaderDemo {
     @Bean
     public Job xmlItemReaderDemoJob(){
         return jobBuilderFactory.get("xmlItemReaderDemoJob")
-                .start(xmlItemReaderDemoStep()).builder();
+                .start(xmlItemReaderDemoStep()).build();
     }
 
     @Bean

@@ -1,4 +1,12 @@
-com/ssk/mode/UserDO.class
+com/ssk/jsqlparser/Building.class
 com/ssk/config/DataSourceConfig.class
+com/ssk/jsqlparser/SqlParser.class
+com/ssk/mode/UserDO.class
+com/ssk/jsqlparser/SimpleEvaluateExpr$1.class
+com/ssk/comment/MyBean.class
+com/ssk/jsqlparser/Alias.class
+com/ssk/jsqlparser/Alias$1.class
+com/ssk/jsqlparser/SimpleEvaluateExpr.class
 com/ssk/dao/UserDao.class
+com/ssk/jsqlparser/Building$1.class
 com/ssk/Application.class

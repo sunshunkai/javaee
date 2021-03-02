@@ -20,91 +20,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b2beb7-3e64-47b6-bc0a-def9a5534bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/elasticsearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/src/main/java/com/ssk/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/src/main/java/com/ssk/jpa/mode/HouseIndexTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/src/main/java/com/ssk/jpa/mode/dao/HouseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/elasticsearch/src/test/java/com/ssk/jpa/HouseRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/comment/MyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/jsqlparser/Alias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/jsqlparser/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/jsqlparser/SimpleEvaluateExpr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/jsqlparser/SqlParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/shardingsphere/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/shardingsphere/src/main/java/com/ssk/common/DataSourceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/concurrent/CompletableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/file/ConversionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/file/ResultObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/file/poiUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/map/TreeMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/AdvancedRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/BasicRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/ImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/composite/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/DataSourceDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/FileDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/decorator/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/BundledShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/singleton/DemoSingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/singleton/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/TableHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/WordHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/test/java/com/ssk/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/freemark/src/test/resources/html.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zk/curator/src/main/java/com/ssk/CuratorLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/MessageMigrationJobConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/itemread/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/itemread/db/DbJdbcWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/itemread/db/ItemReadDbDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/itemread/xml/XmlFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java/com/ssk/batch/itemread/xml/XmlItemReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring-batch-demo/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mybatis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/elasticsearch/target/test-classes/com/ssk/jpa/HouseRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/target/test-classes/com/ssk/test/dao/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/shardingsphere/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/shardingsphere/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/com/ssk/file/poiUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/target/classes/com/ssk/file/poiUse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job/elastic-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/job/elastic-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job/elastic-job/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/job/elastic-job/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/MessageMigrationJobConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/MessageMigrationJobConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/DbJdbcWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/DbJdbcWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/ItemReadDbDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/ItemReadDbDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/xml/XmlFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/xml/XmlFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/xml/XmlItemReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/xml/XmlItemReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/ScheduleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/cron/ScheduleTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/ScheduleTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/ScheduleTask$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/ScheduleTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/ScheduleTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest$D.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest$D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest$T.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest$T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/cron/executor/ScheduledExecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/event/MyApplicationContextInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/event/MyApplicationContextInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/lombak/UserBean$UserBeanBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/lombak/UserBean$UserBeanBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/lombak/UserBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/lombak/UserBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/loop/FirstBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/classes/com/ssk/loop/FirstBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/FunctionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/juc/ThreadLocalMain$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/juc/ThreadLocalMain$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/juc/ThreadLocalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/target/test-classes/com/ssk/juc/ThreadLocalMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/classes/com/ssk/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/classes/com/ssk/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/classes/com/ssk/TableHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/classes/com/ssk/WordHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/test-classes/com/ssk/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/freemark/target/test-classes/html.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zk/curator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zk/curator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zk/curator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zk/curator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +87,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -133,37 +107,31 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/spring-batch-demo/src/main/java" />
+      <recent name="$PROJECT_DIR$/spring/spring-batch-demo/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src/main/java/com/ssk/file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuratorLock">
-    <configuration name="Alias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssk.jsqlparser.Alias" />
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.jsqlparser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application (2)">
     <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ssk.jsqlparser.Building" />
       <module name="mybatis" />
@@ -190,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleEvaluateExpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssk.jsqlparser.SimpleEvaluateExpr" />
-      <module name="mybatis" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssk.rmi.client.Main" />
+      <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssk.jsqlparser.*" />
+          <option name="PATTERN" value="com.ssk.rmi.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,15 +171,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssk.rmi.service.Main" />
+      <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
+          <option name="PATTERN" value="com.ssk.rmi.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-batch-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssk.batch.itemread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.batch.itemread.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,20 +205,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleEvaluateExpr" />
-      <item itemvalue="Application.Alias" />
       <item itemvalue="Application.Building" />
       <item itemvalue="Application.CuratorLock" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CuratorLock" />
         <item itemvalue="Application.Building" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Application.Alias" />
-        <item itemvalue="Application.SimpleEvaluateExpr" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +273,9 @@
       <workItem from="1612660908623" duration="22000" />
       <workItem from="1612660964236" duration="51000" />
       <workItem from="1612663935852" duration="3028000" />
+      <workItem from="1613809645217" duration="692000" />
+      <workItem from="1614062612317" duration="1374000" />
+      <workItem from="1614072771375" duration="24217000" />
     </task>
     <servers />
   </component>
@@ -324,10 +308,11 @@
     </state>
     <state x="117" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1607348205322" />
     <state x="117" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1607070935247" />
-    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1611912498771">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1614607915997">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1611912498771" />
+    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1614607915997" />
+    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1614216931308" />
     <state x="537" y="151" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1608730022691" />
     <state x="537" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.833@0.23.1440.833" timestamp="1607393040456" />
     <state x="537" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1607061434176" />
@@ -335,14 +320,11 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="457" height="466" key="DebuggerActiveHint/0.23.1440.829@0.23.1440.829" timestamp="1609335400057" />
-    <state x="209" y="41" width="1231" height="632" key="DiffContextDialog" timestamp="1605183187848">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1387" height="376" key="GridCell.Tab.0.bottom" timestamp="1614672745792">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="209" y="41" width="1231" height="632" key="DiffContextDialog/0.23.1440.832@0.23.1440.832" timestamp="1605183187848" />
-    <state width="1387" height="98" key="GridCell.Tab.0.bottom" timestamp="1612507390228">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state width="1387" height="98" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1612507390228" />
+    <state width="1387" height="376" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1614672745792" />
+    <state width="1387" height="293" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.0.bottom/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697169" />
     <state width="1387" height="305" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
@@ -350,10 +332,11 @@
     <state width="1387" height="307" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1607407100516" />
     <state width="1387" height="307" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1607324258910" />
     <state width="1387" height="268" key="GridCell.Tab.0.bottom/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582838" />
-    <state width="1387" height="98" key="GridCell.Tab.0.center" timestamp="1612507390226">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.0.center" timestamp="1614672745787">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="98" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1612507390226" />
+    <state width="1387" height="376" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1614672745787" />
+    <state width="1387" height="293" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1611024702827" />
     <state width="1387" height="266" key="GridCell.Tab.0.center/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697169" />
     <state width="1387" height="305" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
@@ -361,10 +344,11 @@
     <state width="1387" height="307" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1607407100516" />
     <state width="1387" height="307" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1607324258909" />
     <state width="1387" height="268" key="GridCell.Tab.0.center/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582837" />
-    <state width="1387" height="98" key="GridCell.Tab.0.left" timestamp="1612507390226">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.0.left" timestamp="1614672745770">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="98" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1612507390226" />
+    <state width="1387" height="376" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1614672745770" />
+    <state width="1387" height="293" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1611024702827" />
     <state width="1387" height="266" key="GridCell.Tab.0.left/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697168" />
     <state width="1387" height="305" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1609398181056" />
@@ -372,10 +356,11 @@
     <state width="1387" height="307" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1607407100516" />
     <state width="1387" height="307" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1607324258909" />
     <state width="1387" height="268" key="GridCell.Tab.0.left/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582836" />
-    <state width="1387" height="98" key="GridCell.Tab.0.right" timestamp="1612507390227">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.0.right" timestamp="1614672745791">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="98" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1612507390227" />
+    <state width="1387" height="376" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1614672745791" />
+    <state width="1387" height="293" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.0.right/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697169" />
     <state width="1387" height="305" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
@@ -383,10 +368,11 @@
     <state width="1387" height="307" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1607407100516" />
     <state width="1387" height="307" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1607324258910" />
     <state width="1387" height="268" key="GridCell.Tab.0.right/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582837" />
-    <state width="1387" height="230" key="GridCell.Tab.1.bottom" timestamp="1612402195357">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.1.bottom" timestamp="1614672745795">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="230" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1612402195357" />
+    <state width="1387" height="376" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1614672745795" />
+    <state width="1387" height="293" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614243723335" />
     <state width="1387" height="231" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.1.bottom/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697171" />
     <state width="1387" height="305" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609398181058" />
@@ -394,10 +380,11 @@
     <state width="1387" height="307" key="GridCell.Tab.1.bottom/0.23.1440.833@0.23.1440.833" timestamp="1607407100517" />
     <state width="1387" height="307" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1607324258911" />
     <state width="1387" height="268" key="GridCell.Tab.1.bottom/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582839" />
-    <state width="1387" height="230" key="GridCell.Tab.1.center" timestamp="1612402195356">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.1.center" timestamp="1614672745793">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="230" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1612402195356" />
+    <state width="1387" height="376" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1614672745793" />
+    <state width="1387" height="293" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.1.center/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697170" />
     <state width="1387" height="305" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
@@ -405,10 +392,11 @@
     <state width="1387" height="307" key="GridCell.Tab.1.center/0.23.1440.833@0.23.1440.833" timestamp="1607407100517" />
     <state width="1387" height="307" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1607324258911" />
     <state width="1387" height="268" key="GridCell.Tab.1.center/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582839" />
-    <state width="1387" height="230" key="GridCell.Tab.1.left" timestamp="1612402195356">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.1.left" timestamp="1614672745793">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="230" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1612402195356" />
+    <state width="1387" height="376" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1614672745793" />
+    <state width="1387" height="293" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.1.left/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697170" />
     <state width="1387" height="305" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
@@ -416,10 +404,11 @@
     <state width="1387" height="307" key="GridCell.Tab.1.left/0.23.1440.833@0.23.1440.833" timestamp="1607407100517" />
     <state width="1387" height="307" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1607324258910" />
     <state width="1387" height="268" key="GridCell.Tab.1.left/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582838" />
-    <state width="1387" height="230" key="GridCell.Tab.1.right" timestamp="1612402195357">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="376" key="GridCell.Tab.1.right" timestamp="1614672745794">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1387" height="230" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1612402195357" />
+    <state width="1387" height="376" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1614672745794" />
+    <state width="1387" height="293" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1614243723335" />
     <state width="1387" height="231" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="266" key="GridCell.Tab.1.right/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608253697171" />
     <state width="1387" height="305" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1609398181058" />
@@ -427,41 +416,46 @@
     <state width="1387" height="307" key="GridCell.Tab.1.right/0.23.1440.833@0.23.1440.833" timestamp="1607407100517" />
     <state width="1387" height="307" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1607324258911" />
     <state width="1387" height="268" key="GridCell.Tab.1.right/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582839" />
-    <state width="1387" height="230" key="GridCell.Tab.2.bottom" timestamp="1612402195359">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="229" key="GridCell.Tab.2.bottom" timestamp="1614671887036">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1387" height="229" key="GridCell.Tab.2.bottom/0.23.1440.823@0.23.1440.823" timestamp="1614671887036" />
     <state width="1387" height="230" key="GridCell.Tab.2.bottom/0.23.1440.825@0.23.1440.825" timestamp="1612402195359" />
     <state width="1387" height="257" key="GridCell.Tab.2.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609396117206" />
     <state width="1387" height="268" key="GridCell.Tab.2.bottom/0.23.1440.832@0.23.1440.832" timestamp="1606526573163" />
     <state width="1387" height="268" key="GridCell.Tab.2.bottom/0.23.1440.835@0.23.1440.835" timestamp="1607048257375" />
     <state width="1387" height="268" key="GridCell.Tab.2.bottom/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582841" />
-    <state width="1387" height="230" key="GridCell.Tab.2.center" timestamp="1612402195358">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="229" key="GridCell.Tab.2.center" timestamp="1614671887036">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1387" height="229" key="GridCell.Tab.2.center/0.23.1440.823@0.23.1440.823" timestamp="1614671887036" />
     <state width="1387" height="230" key="GridCell.Tab.2.center/0.23.1440.825@0.23.1440.825" timestamp="1612402195358" />
     <state width="1387" height="257" key="GridCell.Tab.2.center/0.23.1440.829@0.23.1440.829" timestamp="1609396117205" />
     <state width="1387" height="268" key="GridCell.Tab.2.center/0.23.1440.832@0.23.1440.832" timestamp="1606526573162" />
     <state width="1387" height="268" key="GridCell.Tab.2.center/0.23.1440.835@0.23.1440.835" timestamp="1607048257374" />
     <state width="1387" height="268" key="GridCell.Tab.2.center/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582840" />
-    <state width="1387" height="230" key="GridCell.Tab.2.left" timestamp="1612402195357">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="229" key="GridCell.Tab.2.left" timestamp="1614671887035">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1387" height="229" key="GridCell.Tab.2.left/0.23.1440.823@0.23.1440.823" timestamp="1614671887035" />
     <state width="1387" height="230" key="GridCell.Tab.2.left/0.23.1440.825@0.23.1440.825" timestamp="1612402195357" />
     <state width="1387" height="257" key="GridCell.Tab.2.left/0.23.1440.829@0.23.1440.829" timestamp="1609396117205" />
     <state width="1387" height="268" key="GridCell.Tab.2.left/0.23.1440.832@0.23.1440.832" timestamp="1606526573162" />
     <state width="1387" height="268" key="GridCell.Tab.2.left/0.23.1440.835@0.23.1440.835" timestamp="1607048257374" />
     <state width="1387" height="268" key="GridCell.Tab.2.left/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582840" />
-    <state width="1387" height="230" key="GridCell.Tab.2.right" timestamp="1612402195359">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1387" height="229" key="GridCell.Tab.2.right" timestamp="1614671887036">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1387" height="229" key="GridCell.Tab.2.right/0.23.1440.823@0.23.1440.823" timestamp="1614671887036" />
     <state width="1387" height="230" key="GridCell.Tab.2.right/0.23.1440.825@0.23.1440.825" timestamp="1612402195359" />
     <state width="1387" height="257" key="GridCell.Tab.2.right/0.23.1440.829@0.23.1440.829" timestamp="1609396117206" />
     <state width="1387" height="268" key="GridCell.Tab.2.right/0.23.1440.832@0.23.1440.832" timestamp="1606526573162" />
     <state width="1387" height="268" key="GridCell.Tab.2.right/0.23.1440.835@0.23.1440.835" timestamp="1607048257374" />
     <state width="1387" height="268" key="GridCell.Tab.2.right/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872582841" />
-    <state x="260" y="128" key="Maven.ArtifactSearchDialog" timestamp="1611736767981">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="215" y="170" key="Maven.ArtifactSearchDialog" timestamp="1614497446469">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state x="215" y="170" key="Maven.ArtifactSearchDialog/0.23.1440.823@0.23.1440.823" timestamp="1614497446469" />
     <state x="260" y="128" key="Maven.ArtifactSearchDialog/0.23.1440.825@0.23.1440.825" timestamp="1611736767981" />
     <state x="442" y="148" key="RollbackChangesDialog" timestamp="1608119458353">
       <screen x="0" y="23" width="1440" height="829" />
@@ -470,37 +464,40 @@
     <state x="442" y="148" key="RollbackChangesDialog/0.23.1440.832@0.23.1440.832" timestamp="1606547726398" />
     <state x="442" y="149" key="RollbackChangesDialog/0.23.1440.835@0.23.1440.835" timestamp="1607048255907" />
     <state x="442" y="149" key="RollbackChangesDialog/0.23.1440.837/-2560.-436.2560.1417@0.23.1440.837" timestamp="1606872579694" />
-    <state x="223" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1605231716805">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="223" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1605231716805" />
     <state x="325" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608195631649">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="325" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829/-1964.-1417.2560.1417@0.23.1440.829" timestamp="1608195631649" />
-    <state x="171" y="173" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609326943698">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="171" y="172" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614670426489">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state x="171" y="172" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.823@0.23.1440.823" timestamp="1614670426489" />
     <state x="171" y="173" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.829@0.23.1440.829" timestamp="1609326943698" />
-    <state x="578" y="211" width="862" height="492" key="find.popup" timestamp="1607061533888">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="578" y="209" width="862" height="490" key="find.popup" timestamp="1614149514032">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="578" y="210" width="862" height="490" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1605231827276" />
+    <state x="578" y="209" width="862" height="490" key="find.popup/0.23.1440.825@0.23.1440.825" timestamp="1614149514032" />
     <state x="578" y="211" width="862" height="492" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1607061533888" />
-    <state x="176" y="105" key="new project wizard" timestamp="1610698824245">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="176" y="105" key="new project wizard" timestamp="1614672273009">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state x="176" y="105" key="new project wizard/0.23.1440.823@0.23.1440.823" timestamp="1614672273009" />
     <state x="176" y="105" key="new project wizard/0.23.1440.827@0.23.1440.827" timestamp="1610698824245" />
     <state x="176" y="105" key="new project wizard/0.23.1440.829@0.23.1440.829" timestamp="1609383491162" />
     <state x="86" y="105" key="new project wizard/0.23.1440.835@0.23.1440.835" timestamp="1607069822298" />
+    <state x="420" y="207" key="refactoring.ChangeSignatureDialog" timestamp="1614499187146">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="420" y="207" key="refactoring.ChangeSignatureDialog/0.23.1440.823@0.23.1440.823" timestamp="1614499187146" />
     <state x="386" y="199" key="run.anything.popup" timestamp="1606350451902">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="386" y="199" key="run.anything.popup/0.23.1440.832@0.23.1440.832" timestamp="1606350451902" />
-    <state x="108" y="64" width="670" height="673" key="search.everywhere.popup" timestamp="1611906684124">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup" timestamp="1614656261627">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="108" y="64" width="670" height="673" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1611906684124" />
+    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1614656261627" />
+    <state x="108" y="64" width="670" height="673" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1614220673709" />
     <state x="108" y="64" width="670" height="674" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1610940877569" />
     <state x="108" y="64" width="670" height="675" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1609379793594" />
     <state x="380" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1606486760201" />
@@ -605,11 +602,6 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/map/TreeMapDemo.java</url>
           <line>18</line>
           <option name="timeStamp" value="39" />
@@ -679,130 +671,105 @@
           <line>162</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar!/org/springframework/boot/autoconfigure/data/AbstractRepositoryConfigurationSourceSupport.class</url>
           <line>35</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java</url>
           <line>346</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java</url>
           <line>377</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java</url>
-          <line>383</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.class</url>
           <line>109</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.3.3.RELEASE/spring-data-commons-2.3.3.RELEASE.jar!/org/springframework/data/repository/config/RepositoryComponentProvider.class</url>
-          <line>72</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.java</url>
           <line>235</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>550</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
-          <line>683</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/Application.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
-          <line>874</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.java</url>
-          <line>324</line>
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/TableHandler.java</url>
           <line>97</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/WordHandler.java</url>
           <line>59</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/WordHandler.java</url>
           <line>60</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/tool/freemark/src/main/java/com/ssk/WordHandler.java</url>
           <line>28</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Demo.java</url>
           <line>12</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/prototype/Demo02.java</url>
           <line>9</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/Demo.java</url>
           <line>11</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/RoundHole.java</url>
           <line>21</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/SquarePegAdapter.java</url>
           <line>19</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/adapter/Demo.java</url>
           <line>22</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/pattern/bridge/BasicRemote.java</url>
           <line>19</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/java/src/main/java/com/ssk/fastjson/Main.java</url>
           <line>22</line>
           <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/DbJdbcWriter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/ItemReadDbDemo.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/batch/itemread/db/ItemReadDbDemo.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="180" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

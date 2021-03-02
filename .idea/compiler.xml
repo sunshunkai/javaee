@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-batch-demo" />
         <module name="mybatis" />
         <module name="shardingsphere" />
         <module name="spring-xml" />
@@ -28,5 +29,24 @@
       <module name="springcloud-eureka" target="1.8" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="curator" options="-parameters" />
+      <module name="elastic-job" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
+      <module name="freemark" options="-parameters" />
+      <module name="h2" options="-parameters" />
+      <module name="java" options="-parameters" />
+      <module name="jpa" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="rocket-mq" options="-parameters" />
+      <module name="shardingsphere" options="-parameters" />
+      <module name="spring-batch-demo" options="-parameters" />
+      <module name="spring-mvc" options="-parameters" />
+      <module name="spring-xml" options="-parameters" />
+      <module name="springcloud-config" options="-parameters" />
+      <module name="springcloud-read-config" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -2,8 +2,10 @@ package com.ssk;
 
 import com.ssk.lombak.UserBean;
 import com.ssk.loop.A;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -19,18 +21,19 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //@EnableAsync
 //@EnableScheduling
 @SpringBootApplication
-public class Application implements ApplicationContextAware {
+@EnableBatchProcessing
+public class Application  {
 
     public static void main(String []args){
-//        SpringApplication.run(Application.class);
+        SpringApplication.run(Application.class);
 //        System.out.println(a() || b());
 
 //        UserBean ssk = UserBean.builder().userName("ssk").age(1).id(1L).build();
 //        System.out.println(ssk);
 
-        ApplicationContext context = new AnnotationConfigApplicationContext(A.class);
-
-        context.getEnvironment();
+//        ApplicationContext context = new AnnotationConfigApplicationContext(A.class);
+//
+//        context.getEnvironment();
     }
 
     private static boolean a(){
@@ -41,8 +44,5 @@ public class Application implements ApplicationContextAware {
         return true;
     }
 
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 
-    }
 }

@@ -1,4 +1,4 @@
-package com.ssk.batch.itmeread.xml;
+package com.ssk.batch.itemread.xml;
 
 import com.ssk.batch.Customer;
 import org.springframework.batch.item.ItemWriter;
@@ -10,7 +10,7 @@ import java.util.List;
  * @author ssk
  * @date 2021/2/28
  */
-@Component("xmlFileWriter")
+//@Component("xmlFileWriter")
 public class XmlFileWriter implements ItemWriter<Customer> {
 
     @Override
