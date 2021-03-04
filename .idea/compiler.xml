@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-batch-demo" />
+        <module name="canal-client" />
         <module name="mybatis" />
         <module name="shardingsphere" />
         <module name="spring-xml" />
@@ -32,6 +33,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="canal-client" options="-parameters" />
       <module name="curator" options="-parameters" />
       <module name="elastic-job" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
