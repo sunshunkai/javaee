@@ -18,3 +18,11 @@ spring:
 context:
   initializer:
     classes: com.ssk.event.MyApplicationContextInitializer
+
+sku.auto.off.shelf.enable: false
+
+#sku:
+#  auto:
+#    off:
+#      shelf:
+#        enable: false
