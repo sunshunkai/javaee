@@ -1,7 +1,0 @@
-com/ssk/mylabel/bean/User.class
-com/ssk/mylabel/parser/UserBeanDefinitionParser.class
-com/ssk/mylabel/handler/UserNamespaceHandler.class
-com/ssk/bean/Student.class
-com/ssk/bean/TestChangeMethod.class
-com/ssk/bean/TestMethodReplacer.class
-com/ssk/Application.class

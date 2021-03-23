@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/microservices/springcloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/springcloud/springcloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/springcloud/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/tool/pom.xml" />
       </set>
     </option>
   </component>
