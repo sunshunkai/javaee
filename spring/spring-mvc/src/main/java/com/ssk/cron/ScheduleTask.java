@@ -1,6 +1,6 @@
 package com.ssk.cron;
 
-import org.assertj.core.util.Lists;
+import com.google.common.collect.Lists;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

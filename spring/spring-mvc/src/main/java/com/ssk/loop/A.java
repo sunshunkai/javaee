@@ -17,7 +17,7 @@ import javax.annotation.PostConstruct;
 public class A {
 
     @Value("${spring.redis.host:1}")
-    private int db;
+    private String db;
 
     public A(){
 

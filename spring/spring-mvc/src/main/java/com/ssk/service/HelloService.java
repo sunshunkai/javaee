@@ -16,4 +16,8 @@ public class HelloService {
     }
     @Autowired
     private HelloController helloController;
+
+    public String hello(String str){
+        return "你好:"+str;
+    }
 }
