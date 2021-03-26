@@ -60,7 +60,7 @@ jetcache:
       keyConvertor: fastjson
       valueEncoder: java?useIdentityNumber=false
       valueDecoder: java?useIdentityNumber=false
-     useIdentityNumber: false
+#      useIdentityNumber: false
       poolConfig:
         minIdle: 5
         maxIdle: 20
