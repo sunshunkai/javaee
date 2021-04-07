@@ -13,6 +13,7 @@
         <module name="shardingsphere" />
         <module name="spring-xml" />
         <module name="freemark" />
+        <module name="sskbatis" />
         <module name="springcloud-config" />
         <module name="h2" />
         <module name="rocket-mq" />
@@ -50,6 +51,7 @@
       <module name="spring-xml" options="-parameters" />
       <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-read-config" options="-parameters" />
+      <module name="sskbatis" options="-parameters" />
     </option>
   </component>
 </project>

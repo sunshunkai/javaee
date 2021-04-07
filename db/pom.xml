@@ -18,6 +18,7 @@
         <module>elasticsearch</module>
         <module>shardingsphere</module>
         <module>canal-client</module>
+        <module>sskbatis</module>
     </modules>
 
 
