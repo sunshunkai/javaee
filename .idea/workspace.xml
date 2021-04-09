@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b2beb7-3e64-47b6-bc0a-def9a5534bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/com/ssk/script/ScriptEngineManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/mode/OrderDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/src/main/java/com/ssk/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mybatis/src/test/java/com/ssk/test/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/mybatis/src/test/java/com/ssk/test/dao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,8 @@
         <option value="Kotlin Class" />
         <option value="AnnotationType" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,39 +92,13 @@
       <recent name="$PROJECT_DIR$/spring/spring-batch-demo/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScriptEngineManagerTest">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testMapper">
     <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ssk.jvm.DeadLockDemo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ssk.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssk.openjdk.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.openjdk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssk.openjdk.jol.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.openjdk.jol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +135,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssk.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssk.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ssk.test.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssk.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssk.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ssk.test.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-batch-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.batch.itemread.Application" />
@@ -177,21 +184,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.ScriptEngineManagerTest" />
       <item itemvalue="JUnit.ITest.test" />
+      <item itemvalue="JUnit.UserDaoTest.test" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="JUnit.UserDaoTest.testMapper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testMapper" />
+        <item itemvalue="JUnit.UserDaoTest.test" />
         <item itemvalue="Application.ScriptEngineManagerTest" />
         <item itemvalue="JUnit.ITest.test" />
         <item itemvalue="Application.DeadLockDemo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +271,9 @@
       <workItem from="1616804746788" duration="16224000" />
       <workItem from="1617190192672" duration="2241000" />
       <workItem from="1617267630312" duration="642000" />
+      <workItem from="1617773619235" duration="2528000" />
+      <workItem from="1617799545050" duration="8055000" />
+      <workItem from="1617950926361" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="批量任务">
       <created>1616723195739</created>
@@ -272,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616723195739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="字符串校验">
+      <created>1617773640652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617773640652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,83 +309,92 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="批量任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="批量任务" />
+    <MESSAGE value="字符串校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串校验" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="223" key="#Inspections" timestamp="1608731048531">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="426" y="223" key="#Inspections/0.23.1440.829@0.23.1440.829" timestamp="1608731048531" />
     <state x="122" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614828811166">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="122" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1614828811166" />
-    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1616909153329">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1617883508815">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1617883508815" />
     <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1616909153329" />
     <state x="537" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1614216931308" />
-    <state x="537" y="151" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1608730022691" />
     <state width="457" height="466" key="DebuggerActiveHint" timestamp="1609335400057">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="457" height="466" key="DebuggerActiveHint/0.23.1440.829@0.23.1440.829" timestamp="1609335400057" />
-    <state width="1387" height="364" key="GridCell.Tab.0.bottom" timestamp="1617331082007">
+    <state width="1387" height="362" key="GridCell.Tab.0.bottom" timestamp="1617952183881">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1387" height="364" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1617331082007" />
+    <state width="1387" height="362" key="GridCell.Tab.0.bottom/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617952183881" />
+    <state width="1387" height="363" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1617882500882" />
     <state width="1387" height="368" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1616912383044" />
     <state width="1387" height="293" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="305" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
-    <state width="1387" height="364" key="GridCell.Tab.0.center" timestamp="1617331082006">
+    <state width="1387" height="362" key="GridCell.Tab.0.center" timestamp="1617952183880">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1387" height="364" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1617331082006" />
+    <state width="1387" height="362" key="GridCell.Tab.0.center/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617952183880" />
+    <state width="1387" height="363" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1617882500877" />
     <state width="1387" height="368" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1616912383043" />
     <state width="1387" height="293" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1611024702827" />
     <state width="1387" height="305" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
-    <state width="1387" height="364" key="GridCell.Tab.0.left" timestamp="1617331082005">
+    <state width="1387" height="362" key="GridCell.Tab.0.left" timestamp="1617952183879">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1387" height="364" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1617331082005" />
+    <state width="1387" height="362" key="GridCell.Tab.0.left/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617952183879" />
+    <state width="1387" height="363" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1617882500876" />
     <state width="1387" height="368" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1616912383042" />
     <state width="1387" height="293" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1611024702827" />
     <state width="1387" height="305" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1609398181056" />
-    <state width="1387" height="364" key="GridCell.Tab.0.right" timestamp="1617331082006">
+    <state width="1387" height="362" key="GridCell.Tab.0.right" timestamp="1617952183880">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1387" height="364" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1617331082006" />
+    <state width="1387" height="362" key="GridCell.Tab.0.right/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617952183880" />
+    <state width="1387" height="363" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1617882500878" />
     <state width="1387" height="368" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1616912383044" />
     <state width="1387" height="293" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1614243723333" />
     <state width="1387" height="231" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="305" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
-    <state width="1387" height="275" key="GridCell.Tab.1.bottom" timestamp="1616638072226">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1387" height="508" key="GridCell.Tab.1.bottom" timestamp="1617951459154">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="1387" height="508" key="GridCell.Tab.1.bottom/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617951459154" />
+    <state width="1387" height="274" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1617882362508" />
     <state width="1387" height="275" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1616638072226" />
     <state width="1387" height="293" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614243723335" />
     <state width="1387" height="231" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="305" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609398181058" />
-    <state width="1387" height="275" key="GridCell.Tab.1.center" timestamp="1616638072225">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1387" height="508" key="GridCell.Tab.1.center" timestamp="1617951459153">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="1387" height="508" key="GridCell.Tab.1.center/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617951459153" />
+    <state width="1387" height="274" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1617882362507" />
     <state width="1387" height="275" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1616638072225" />
     <state width="1387" height="293" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="305" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
-    <state width="1387" height="275" key="GridCell.Tab.1.left" timestamp="1616638072225">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1387" height="508" key="GridCell.Tab.1.left" timestamp="1617951459153">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="1387" height="508" key="GridCell.Tab.1.left/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617951459153" />
+    <state width="1387" height="274" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1617882362507" />
     <state width="1387" height="275" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1616638072225" />
     <state width="1387" height="293" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1614243723334" />
     <state width="1387" height="231" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
     <state width="1387" height="305" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1609398181057" />
-    <state width="1387" height="275" key="GridCell.Tab.1.right" timestamp="1616638072226">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1387" height="508" key="GridCell.Tab.1.right" timestamp="1617951459154">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="1387" height="508" key="GridCell.Tab.1.right/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617951459154" />
+    <state width="1387" height="274" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1617882362508" />
     <state width="1387" height="275" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1616638072226" />
     <state width="1387" height="293" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1614243723335" />
     <state width="1387" height="231" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1611024702828" />
@@ -419,9 +445,10 @@
     </state>
     <state x="171" y="172" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.823@0.23.1440.823" timestamp="1614670426489" />
     <state x="171" y="173" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.829@0.23.1440.829" timestamp="1609326943698" />
-    <state x="578" y="209" width="862" height="490" key="find.popup" timestamp="1614768197427">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="578" y="209" width="862" height="490" key="find.popup" timestamp="1617951455494">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="578" y="209" width="862" height="490" key="find.popup/0.23.1440.821/-1964.-1417.2560.1417@0.23.1440.821" timestamp="1617951455494" />
     <state x="578" y="209" width="862" height="490" key="find.popup/0.23.1440.823@0.23.1440.823" timestamp="1614768197427" />
     <state x="578" y="209" width="862" height="490" key="find.popup/0.23.1440.825@0.23.1440.825" timestamp="1614149514032" />
     <state x="176" y="105" key="new project wizard" timestamp="1616804855228">
@@ -434,9 +461,11 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="420" y="207" key="refactoring.ChangeSignatureDialog/0.23.1440.823@0.23.1440.823" timestamp="1614499187146" />
-    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup" timestamp="1616909333870">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup" timestamp="1617847421844">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1617847421844" />
+    <state x="108" y="64" width="670" height="672" key="search.everywhere.popup/0.23.1440.822/-1964.-1417.2560.1417@0.23.1440.822" timestamp="1617773659599" />
     <state x="108" y="64" width="670" height="672" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1616909333870" />
     <state x="108" y="64" width="670" height="673" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1616905982345" />
     <state x="108" y="64" width="670" height="674" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1610940877569" />
@@ -749,6 +778,16 @@
           <url>jar://$MAVEN_REPOSITORY$/com/alicp/jetcache/jetcache-anno/2.5.11/jetcache-anno-2.5.11.jar!/com/alicp/jetcache/anno/aop/JetCacheInterceptor.class</url>
           <line>32</line>
           <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/db/mybatis/src/test/java/com/ssk/test/dao/UserDaoTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="227" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

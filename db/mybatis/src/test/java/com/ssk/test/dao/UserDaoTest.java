@@ -1,6 +1,8 @@
 package com.ssk.test.dao;
 
+import com.ssk.dao.OrderDao;
 import com.ssk.dao.UserDao;
+import com.ssk.mode.OrderDO;
 import com.ssk.mode.UserDO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,6 +20,17 @@ public class UserDaoTest {
     
     @Autowired
     private UserDao userDao;
+
+    @Autowired
+    private OrderDao orderDao;
+
+    @Test
+    public void testMapper(){
+        OrderDO order = new OrderDO();
+        order.setOrderId(11L);
+        order.setAmount(200L);
+        orderDao.insert(order);
+    }
     
     @Test
     public void test(){
