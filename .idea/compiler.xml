@@ -11,6 +11,7 @@
         <module name="canal-client" />
         <module name="mybatis" />
         <module name="shardingsphere" />
+        <module name="my-spring" />
         <module name="spring-xml" />
         <module name="freemark" />
         <module name="sskbatis" />
@@ -43,6 +44,7 @@
       <module name="h2" options="-parameters" />
       <module name="java" options="-parameters" />
       <module name="jpa" options="-parameters" />
+      <module name="my-spring" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="rocket-mq" options="-parameters" />
       <module name="shardingsphere" options="-parameters" />
