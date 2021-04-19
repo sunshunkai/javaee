@@ -16,6 +16,7 @@
         <module>spring-xml</module>
         <module>spring-batch-demo</module>
         <module>my-spring</module>
+        <module>my-spring-mvc</module>
     </modules>
 
 
