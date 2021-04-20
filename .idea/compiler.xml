@@ -9,17 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-batch-demo" />
         <module name="canal-client" />
-        <module name="elastic-job" />
+        <module name="mybatis" />
         <module name="shardingsphere" />
         <module name="my-spring" />
         <module name="my-spring-mvc" />
+        <module name="lucene" />
         <module name="spring-xml" />
         <module name="freemark" />
         <module name="sskbatis" />
         <module name="springcloud-config" />
         <module name="h2" />
         <module name="rocket-mq" />
-        <module name="mybatis" />
+        <module name="elastic-job" />
         <module name="spring-mvc" />
         <module name="jpa" />
         <module name="curator" />
@@ -45,6 +46,7 @@
       <module name="h2" options="-parameters" />
       <module name="java" options="-parameters" />
       <module name="jpa" options="-parameters" />
+      <module name="lucene" options="-parameters" />
       <module name="my-spring" options="-parameters" />
       <module name="my-spring-mvc" options="-parameters -parameters" />
       <module name="mybatis" options="-parameters" />

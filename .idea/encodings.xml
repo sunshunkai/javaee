@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/db/elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/h2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/lucene/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/shardingsphere/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/sskbatis/src/main/java" charset="UTF-8" />

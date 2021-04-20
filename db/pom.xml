@@ -19,6 +19,7 @@
         <module>shardingsphere</module>
         <module>canal-client</module>
         <module>sskbatis</module>
+        <module>lucene</module>
     </modules>
 
 
