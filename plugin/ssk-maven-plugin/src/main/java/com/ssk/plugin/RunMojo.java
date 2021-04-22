@@ -1,4 +1,4 @@
-package com.ssk.pulgin;
+package com.ssk.plugin;
 
 
 import org.apache.maven.plugin.AbstractMojo;

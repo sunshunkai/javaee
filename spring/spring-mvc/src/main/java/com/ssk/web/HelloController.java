@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020/8/20
  */
 @RestController
+@RequestMapping("he")
 public class HelloController {
 
     @Autowired
@@ -18,6 +19,11 @@ public class HelloController {
 
     @RequestMapping("hello")
     public String hello(){
+        return helloService.hello("ssk");
+    }
+
+    @RequestMapping("hello1")
+    public String hello1(){
         return helloService.hello("ssk");
     }
 

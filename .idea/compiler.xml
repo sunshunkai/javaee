@@ -20,6 +20,7 @@
         <module name="springcloud-config" />
         <module name="h2" />
         <module name="rocket-mq" />
+        <module name="ssk-maven-pulgin" />
         <module name="elastic-job" />
         <module name="spring-mvc" />
         <module name="jpa" />
@@ -50,6 +51,7 @@
       <module name="my-spring" options="-parameters" />
       <module name="my-spring-mvc" options="-parameters -parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="pulgin" options="" />
       <module name="rocket-mq" options="-parameters" />
       <module name="shardingsphere" options="-parameters" />
       <module name="spring-batch-demo" options="-parameters" />

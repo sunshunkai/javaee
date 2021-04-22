@@ -1,4 +1,4 @@
-package com.ssk.pulgin;
+package com.ssk.plugin;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -19,7 +19,7 @@ public class CheckMojo extends AbstractMojo {
 
 
     public void execute() throws MojoExecutionException, MojoFailureException {
-
+        System.out.println("-----");
 
     }
 

@@ -8,11 +8,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ssk</groupId>
-    <artifactId>pulgin</artifactId>
-    <name>pulgin project</name>
+    <artifactId>plugin</artifactId>
+    <name>plugin project</name>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ssk-maven-pulgin</module>
+        <module>ssk-maven-plugin</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -24,6 +24,7 @@
         <module>microservices</module>
         <module>java</module>
         <module>tool</module>
+        <module>plugin</module>
     </modules>
 
 

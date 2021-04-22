@@ -44,5 +44,34 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <!-- 自定义命令运行插件 -->
+<!--            <plugin>-->
+<!--                <groupId>com.ssk</groupId>-->
+<!--                <artifactId>ssk-maven-plugin</artifactId>-->
+<!--                <version>1.0-SNAPSHOT</version>-->
+<!--            </plugin>-->
+
+            <!-- 将插件绑定到生命周期上 -->
+            <plugin>
+                <groupId>com.ssk</groupId>
+                <artifactId>ssk-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>hello</goal>
+                        </goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+
+
 
 </project>

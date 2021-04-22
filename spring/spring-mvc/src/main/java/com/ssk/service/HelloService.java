@@ -14,7 +14,7 @@ public class HelloService {
     public HelloService(){
         System.out.println("hello");
     }
-    @Autowired
+    @Autowired(required = false)
     private HelloController helloController;
 
     public String hello(String str){
