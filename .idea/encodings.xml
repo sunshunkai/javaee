@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/agent/agent-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent/agent-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/canal-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/h2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/db/jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/lucene/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/mysql-binlog/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/shardingsphere/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/sskbatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io/netty-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/job/elastic-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices/springcloud/springcloud-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices/springcloud/springcloud-read-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/rocket-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mysql-binlog/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/my-spring-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/my-spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-batch-demo/src/main/java" charset="UTF-8" />

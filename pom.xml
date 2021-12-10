@@ -25,6 +25,8 @@
         <module>java</module>
         <module>tool</module>
         <module>plugin</module>
+        <module>io</module>
+        <module>agent</module>
     </modules>
 
 

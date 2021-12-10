@@ -12,14 +12,16 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/agent-demo/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/springcloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/springcloud/springcloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/springcloud/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/mysql-binlog/pom.xml" />
         <option value="$PROJECT_DIR$/tool/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

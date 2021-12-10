@@ -47,12 +47,13 @@
             <groupId>jaxen</groupId>
             <artifactId>jaxen</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>31</version>
-            <scope>compile</scope>
+            <version>3.5.6</version>
         </dependency>
+
     </dependencies>
 
 </project>

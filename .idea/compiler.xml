@@ -7,28 +7,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-batch-demo" />
-        <module name="canal-client" />
-        <module name="mybatis" />
-        <module name="shardingsphere" />
-        <module name="my-spring" />
-        <module name="my-spring-mvc" />
-        <module name="lucene" />
-        <module name="spring-xml" />
-        <module name="freemark" />
-        <module name="sskbatis" />
-        <module name="springcloud-config" />
-        <module name="h2" />
-        <module name="rocket-mq" />
-        <module name="ssk-maven-pulgin" />
-        <module name="elastic-job" />
         <module name="spring-mvc" />
-        <module name="jpa" />
-        <module name="curator" />
-        <module name="springcloud-read-config" />
+        <module name="mybatis" />
+        <module name="lucene" />
+        <module name="h2" />
+        <module name="spring-xml" />
+        <module name="ssk-maven-plugin" />
+        <module name="agent-demo" />
+        <module name="shardingsphere" />
+        <module name="elastic-job" />
+        <module name="spring-batch-demo" />
         <module name="java" />
         <module name="elasticsearch" />
+        <module name="my-spring-mvc" />
+        <module name="agent-test" />
+        <module name="ssk-maven-pulgin" />
+        <module name="jpa" />
         <module name="untitled" />
+        <module name="freemark" />
+        <module name="netty-demo" />
+        <module name="my-spring" />
+        <module name="sskbatis" />
+        <module name="springcloud-read-config" />
+        <module name="springcloud-config" />
+        <module name="curator" />
+        <module name="mysql-binlog" />
+        <module name="canal-client" />
+        <module name="rocket-mq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,27 +44,36 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agent" options="" />
+      <module name="agent-demo" options="-parameters -verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_111/jre/lib/jce.jar;C:/Program Files/Java/jdk1.8.0_111/jre/lib/jsse.jar&quot;" />
+      <module name="agent-test" options="-parameters" />
       <module name="canal-client" options="-parameters" />
       <module name="curator" options="-parameters" />
       <module name="elastic-job" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
       <module name="freemark" options="-parameters" />
       <module name="h2" options="-parameters" />
+      <module name="io" options="" />
       <module name="java" options="-parameters" />
+      <module name="job" options="" />
       <module name="jpa" options="-parameters" />
       <module name="lucene" options="-parameters" />
       <module name="my-spring" options="-parameters" />
       <module name="my-spring-mvc" options="-parameters -parameters" />
       <module name="mybatis" options="-parameters" />
+      <module name="mysql-binlog" options="-parameters" />
+      <module name="netty-demo" options="-parameters" />
       <module name="pulgin" options="" />
       <module name="rocket-mq" options="-parameters" />
       <module name="shardingsphere" options="-parameters" />
       <module name="spring-batch-demo" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-xml" options="-parameters" />
+      <module name="springcloud" options="" />
       <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-read-config" options="-parameters" />
       <module name="sskbatis" options="-parameters" />
+      <module name="zk" options="" />
     </option>
   </component>
 </project>
