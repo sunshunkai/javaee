@@ -23,45 +23,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b2beb7-3e64-47b6-bc0a-def9a5534bb2" name="Default Changelist" comment="字符串校验">
-      <change afterPath="$PROJECT_DIR$/agent/agent-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent-demo/src/main/java/com/ssk/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent-demo/src/main/java/com/ssk/TestTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent-demo/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/agent-test/src/main/java/com/ssk/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/netty-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/netty-demo/src/main/java/com/ssk/netty/char02/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/netty-demo/src/main/java/com/ssk/netty/char02/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/netty-demo/src/main/java/com/ssk/netty/char02/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql-binlog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/BinlogPositionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/DefaultPositionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/IPositionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/SyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/spring-boot-devtools-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/spring-boot-devtools-demo/src/main/java/com/ssk/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/spring-boot-devtools-demo/src/main/java/com/ssk/comtroller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/spring-boot-devtools-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/elasticsearch/elasticsearch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sskbatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/sskbatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/microservices.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/springcloud/springcloud-config/springcloud-config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/springcloud/springcloud-read-config/springcloud-read-config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/springcloud/springcloud.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/ssk-maven-plugin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/ssk-maven-plugin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql-binlog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql-binlog/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/my-spring/my-spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/spring-mvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/curator/curator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/zk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-mvc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-mvc/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +81,10 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog2.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -128,12 +127,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/java/src/main/java/com/ssk/openjdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-plug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jvm/spring-boot-devtools-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -157,11 +156,23 @@
       <recent name="$PROJECT_DIR$/java/src/main/java/com/ssk/file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssk.Application" />
+  <component name="RunManager" selected="Spring Boot.Application (8)">
+    <configuration name="RemoteSpringApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.springframework.boot.devtools.RemoteSpringApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.boot.devtools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.springframework.boot.devtools.RemoteSpringApplication" />
       <module name="agent-test" />
-      <option name="PROGRAM_PARAMETERS" value="-javaagent:D:\agent-demo-1.0-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jvm/spring-boot-devtools-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ssk.*" />
@@ -172,77 +183,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuceneIndexTest.testSearchIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene" />
+    <configuration name="TestBinlog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssk.demo.TestBinlog" />
+      <module name="mysql-binlog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
+          <option name="PATTERN" value="com.ssk.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ssk" />
-      <option name="MAIN_CLASS_NAME" value="com.ssk.LuceneIndexTest" />
-      <option name="METHOD_NAME" value="testSearchIndex" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryTest.testSearchPhraseQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssk" />
-      <option name="MAIN_CLASS_NAME" value="com.ssk.QueryTest" />
-      <option name="METHOD_NAME" value="testSearchPhraseQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.testSearchSpanNearQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssk" />
-      <option name="MAIN_CLASS_NAME" value="com.ssk.QueryTest" />
-      <option name="METHOD_NAME" value="testSearchSpanNearQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTest.testSearchTermQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssk" />
-      <option name="MAIN_CLASS_NAME" value="com.ssk.QueryTest" />
-      <option name="METHOD_NAME" value="testSearchTermQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="D:/work/code/ssk/javaee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
       <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="PORT" value="8081" />
       <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8081" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <method v="2" />
     </configuration>
     <configuration name="maven" type="Remote">
@@ -307,6 +290,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-devtools-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssk.Application" />
@@ -317,11 +315,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.QueryTest.testSearchPhraseQuery" />
-      <item itemvalue="JUnit.QueryTest.testSearchTermQuery" />
-      <item itemvalue="JUnit.LuceneIndexTest.testSearchIndex" />
-      <item itemvalue="JUnit.QueryTest.testSearchSpanNearQuery" />
+      <item itemvalue="Application.RemoteSpringApplication" />
+      <item itemvalue="Application.TestBinlog" />
+      <item itemvalue="Gradle.D:/work/code/ssk/javaee" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
       <item itemvalue="Remote JVM Debug.maven" />
       <item itemvalue="Spring Boot.Application" />
@@ -332,14 +328,16 @@
       <item itemvalue="Spring Boot.Application (5)" />
       <item itemvalue="Spring Boot.Application (6)" />
       <item itemvalue="Spring Boot.Application (7)" />
+      <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Application.RemoteSpringApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.QueryTest.testSearchPhraseQuery" />
-        <item itemvalue="JUnit.QueryTest.testSearchSpanNearQuery" />
-        <item itemvalue="JUnit.QueryTest.testSearchTermQuery" />
-        <item itemvalue="JUnit.LuceneIndexTest.testSearchIndex" />
+        <item itemvalue="Spring Boot.Application (8)" />
+        <item itemvalue="Application.RemoteSpringApplication (1)" />
+        <item itemvalue="Application.RemoteSpringApplication" />
+        <item itemvalue="Gradle.D:/work/code/ssk/javaee" />
+        <item itemvalue="Application.TestBinlog" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +424,11 @@
       <workItem from="1639013917525" duration="267000" />
       <workItem from="1639014251272" duration="1219000" />
       <workItem from="1639016216518" duration="9408000" />
-      <workItem from="1639118355898" duration="554000" />
+      <workItem from="1639118355898" duration="3960000" />
+      <workItem from="1639128051259" duration="1684000" />
+      <workItem from="1639216773771" duration="339000" />
+      <workItem from="1639217180919" duration="751000" />
+      <workItem from="1639751813865" duration="26741000" />
     </task>
     <task id="LOCAL-00001" summary="批量任务">
       <created>1616723195739</created>
@@ -819,11 +821,6 @@
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class</url>
-          <line>542</line>
-          <option name="timeStamp" value="261" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAnnotationDrivenConfiguration.java</url>
           <line>40</line>
           <option name="timeStamp" value="262" />
@@ -973,8 +970,97 @@
           <line>9</line>
           <option name="timeStamp" value="345" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog2.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/db/mysql-binlog/src/main/java/com/ssk/demo/TestBinlog.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/spring-mvc/src/main/java/com/ssk/web/HelloController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/spring-boot-devtools-demo/src/main/java/com/ssk/comtroller/HelloController.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/filewatch/FileSystemWatcher.java</url>
+          <line>291</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/Restarter.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/filewatch/FileSystemWatcher.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/Restarter.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/Restarter.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/RestartLauncher.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/Restarter.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm/spring-boot-devtools-demo/src/main/java/com/ssk/Application.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/classloader/RestartClassLoader.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/classloader/RestartClassLoader.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/classloader/RestartClassLoader.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar!/org/springframework/boot/devtools/restart/RestartLauncher.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/misc/Launcher.class</url>
+          <line>42</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JY$DeadLockDemo.ic" NAME="DeadLockDemo Coverage Results" MODIFIED="1616635503987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

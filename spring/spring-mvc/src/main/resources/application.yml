@@ -4,7 +4,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3308/JY?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     driverClassName: com.mysql.jdbc.Driver
     username: root
-    password: ssk123456
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
 #    schema: classpath:/org/springframework/batch/core/schema-mysql.sql
   application:

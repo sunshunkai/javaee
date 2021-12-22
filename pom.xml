@@ -27,6 +27,7 @@
         <module>plugin</module>
         <module>io</module>
         <module>agent</module>
+        <module>jvm</module>
     </modules>
 
 

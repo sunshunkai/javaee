@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-devtools-demo" />
         <module name="spring-mvc" />
         <module name="mybatis" />
         <module name="lucene" />
@@ -57,6 +58,7 @@
       <module name="java" options="-parameters" />
       <module name="job" options="" />
       <module name="jpa" options="-parameters" />
+      <module name="jvm" options="" />
       <module name="lucene" options="-parameters" />
       <module name="my-spring" options="-parameters" />
       <module name="my-spring-mvc" options="-parameters -parameters" />
@@ -67,6 +69,7 @@
       <module name="rocket-mq" options="-parameters" />
       <module name="shardingsphere" options="-parameters" />
       <module name="spring-batch-demo" options="-parameters" />
+      <module name="spring-boot-devtools-demo" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-xml" options="-parameters" />
       <module name="springcloud" options="" />
